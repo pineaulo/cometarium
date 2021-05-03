@@ -1,0 +1,33 @@
+.popup-container {
+    position: absolute;
+    top: 225px;
+    padding: 20px;
+    background-color: #4fc7a4;
+    margin: auto;
+    border-radius: 5px;
+    left: 50%;
+    width: fit-content;
+    max-width: 440px;
+    transform: translate(-50%, 0);
+}
+.cross {
+    background-color: #008a8a;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 400;
+}
+/* Set a fixed scrollable wrapper */
+.tableWrap {
+    max-height: 510px;
+    overflow: auto;
+    border-radius: 6px;
+}
+/* Set header to stick to the top of the container. */
+.tableWrap thead {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
